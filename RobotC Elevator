@@ -1,0 +1,17 @@
+#pragma config(firstFloor, dtg1, Touch,
+#pragma config(secondFloor, dtg2, Touch,
+#pragma config(thirdFloor, dtg3, Touch,
+
+
+//*!! Program created in ROBOTC for Principles of Enginenering. 
+
+task main()
+
+{
+
+when 1==1
+{ 
+  untilBump(firstFloor);
+  
+
+)
